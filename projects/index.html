@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portafolio - Ignacio Andrés Alfonso</title>
+
+    <!-- MDB CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    <!--Estilos de la pagina-->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Botones de idioma y tema -->
+    <div class="lang-toggle d-flex gap-2">
+        <button id="toggleLang" class="btn btn-outline-primary btn-sm">English</button>
+        <button id="toggleTheme" class="btn btn-outline-dark btn-sm">🌙</button>
+    </div>
+
+    <div class="container py-5">
+    <!-- Header -->
+        <header class="text-center mb-5">
+        <h1 class="fw-bold">Ignacio Andrés Alfonso</h1>
+        <p class="lead" id="role">Técnico Programador | Desarrollador Web</p>
+        <p class="d-flex flex-wrap justify-content-center align-items-center gap-3">
+            <span>
+                <i class="fas fa-phone me-1 contact-icon phone-icon"></i>
+                <a href="tel:+5491169599052">+54 9 11 6959-9052</a>
+            </span>
+            |
+            <span>
+                <i class="fas fa-envelope me-1 contact-icon email-icon"></i>
+                <a href="mailto:ignacioalf2018@gmail.com">ignacioalf2018@gmail.com</a>
+            </span>
+            |
+            <span>
+                <i class="fas fa-globe me-1 contact-icon globe-icon"></i>
+                <a href="../index.html">Currículum Vitae</a>
+            </span>
+            |
+            <span>
+                <i class="fab fa-linkedin me-1 contact-icon linkedin-icon"></i>
+                <a href="https://www.linkedin.com/in/ignacio-andr%C3%A9s-alfonso-5783a916/" target="_blank">LinkedIn</a>
+            </span>
+            |
+            <span>
+                <i class="fab fa-github me-1 contact-icon github-icon"></i>
+                <a href="https://github.com/IALFDev" target="_blank">GitHub</a>
+            </span>
+        </p>
+    </header>
+
+    <!-- Proyectos -->
+    <section>
+        <h2 class="h4 section-title" id="projectsTitle">Proyectos</h2>
+        <div class="row row-cols-1 row-cols-md-2 g-4" id="projectsGrid">
+            <!-- Proyecto CV/Portafolio -->
+            <div class="col">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body">
+                        <h5 class="card-title" id="proj1title">Portafolio Web Personal</h5>
+                        <p class="card-text" id="proj1desc">Sitio web responsivo en HTML, CSS y JavaScript con modo oscuro y multilenguaje.</p>
+                        <p>
+                            <span class="badge" style="background-color: #E34F26 !important;" title="HTML"><i class="fa-brands fa-html5"></i> HTML</span>
+                            <span class="badge" style="background-color: #f7df1e !important;" title="JavaScript"><i class="fa-brands fa-square-js"></i> JavaScript</span>
+                            <span class="badge" style="background-color: #1572B6 !important;" title="CSS3"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+                        </p>
+                        <a href="https://github.com/IALFDev/Mi-CurriuculumVitae" target="_blank" class="btn btn-sm btn-outline-secondary" id="proj1btnProj"><i class="fa-brands fa-github"></i> Ver Proyecto</a>
+                        <a href="https://ialfdev.github.io/Mi-CurriuculumVitae/" target="_blank" class="btn btn-sm btn-outline-primary" id="proj1btnWeb"><i class="fa-solid fa-globe"></i> Visitar sitio</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Proyecto Centro CEDAR -->
+            <div class="col">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body">
+                        <h5 class="card-title" id="proj2title">Centro CEDAR</h5>
+                        <p class="card-text" id="proj2desc"> Centro de Entrenadores Deportivos de Alto Rendimiento (CEDAR). Esta plataforma permite a los usuarios adquirir conocimientos y habilidades relacionadas con el fitness y la salud desde cualquier dispositivo conectado a la web.</p>
+                        <p>
+                            <span class="badge" style="background-color: #e34c26 !important;" title="HTML"><i class="fa-brands fa-html5"></i> HTML</span>
+                            <span class="badge" style="background-color: #f7df1e !important;" title="JavaScript"><i class="fa-brands fa-square-js"></i> JavaScript</span>
+                            <span class="badge" style="background-color: #1572B6 !important;" title="CSS3"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+                            <span class="badge" style="background-color: #68217A !important;" title="C#">C#</span>
+                            <span class="badge" style="background-color: #512BD4 !important;" title="ASP.NET">ASP.NET</span>
+                            <span class="badge" style="background-color: #6C757D !important;" title="Poo (programación orientada a objetos)">POO</span>
+                            <span class="badge" style="background-color: #4479A1 !important;" title="MySQL"><i class="fa-solid fa-database"></i> MySQL</span>
+                        </p>
+                        <a href="https://centrocedar.com.ar/" target="_blank" class="btn btn-sm btn-outline-primary" id="proj2btnWeb"><i class="fa-solid fa-globe"></i> Visitar sitio</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+
+    <!-- JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>
