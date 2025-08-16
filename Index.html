@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es-ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Currículum Vitae - Ignacio Andrés Alfonso</title>
+  <!-- MDB CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+  <!--Estilos de la pagina-->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="lang-toggle d-flex gap-2">
+    <button id="toggleLang" class="btn btn-outline-primary btn-sm">English</button>
+    <button id="downloadPDF" class="btn btn-outline-success btn-sm">📄 Descargar PDF</button>
+    <button id="toggleTheme" class="btn btn-outline-dark btn-sm">🌙</button>
+  </div>
+
+  <div id="cv-content" class="container py-5">
+    <!--Header y contacto-->
+    <header class="text-center mb-5">
+      <h1 class="fw-bold">Ignacio Andrés Alfonso</h1>
+      <p class="lead" id="location">Técnico Programador | Pilar, Buenos Aires, Argentina</p>
+      <p class="d-flex flex-wrap justify-content-center align-items-center gap-3">
+        <span>
+          <i class="fas fa-phone me-1 contact-icon phone-icon"></i>
+          <a href="tel:+5491169599052">+54 9 11 6959-9052</a>
+        </span>
+        |
+        <span>
+          <i class="fas fa-envelope me-1 contact-icon email-icon"></i>
+          <a href="mailto:ignacioalf2018@gmail.com">ignacioalf2018@gmail.com</a>
+        </span>
+        |
+        <span>
+          <i class="fas fa-globe me-1 contact-icon globe-icon"></i>
+          <a href="https://portafolioignacioandresalfonso.com.ar" target="_blank">Portafolio</a>
+        </span>
+        |
+        <span>
+          <i class="fab fa-github me-1 contact-icon github-icon"></i>
+          <a href="https://github.com/tuUsuarioGitHub" target="_blank">GitHub</a>
+        </span>
+      </p>
+      <p id="availability">Disponibilidad: Inmediata</p>
+    </header>
+
+    <!-- Perfil Profesional -->
+    <section>
+      <h2 class="h4 section-title" id="profileTitle">Perfil Profesional</h2>
+      <p id="profileText">
+        Técnico Programador con más de 6 años de experiencia en desarrollo de aplicaciones, diseño web y gestión de bases de datos.
+        Especializado en entornos ASP.NET y C#, con sólidos conocimientos en HTML5, CSS3, JavaScript y MySQL.
+        Experiencia en ASP.NET MVC y ASP.NET API Core para el desarrollo de soluciones escalables y seguras.
+        Experiencia en normalización y migración de datos, desarrollo de sistemas a medida y optimización de procesos internos.
+        Enfocado en la resolución de problemas, trabajo en equipo y mejora continua.
+      </p>
+    </section>
+
+    <!-- Experiencia Laboral -->
+    <section>
+      <h2 class="h4 section-title" id="expTitle">Experiencia Laboral</h2>
+      <h5>Municipalidad de Escobar – Belén de Escobar, Buenos Aires</h5>
+      <p class="fst-italic" id="expDate">Administrador / Técnico | Dic 2018 – Feb 2025</p>
+      <ul id="expList">
+        <li>Normalización y organización de datos en sistemas internos.</li>
+        <li>Importación y migración de datos entre plataformas.</li>
+        <li>Creación de consultas SQL para administración y mantenimiento de bases de datos.</li>
+        <li>Desarrollo de sistemas y aplicaciones a medida según requerimientos del área.</li>
+        <li>Colaboración con diferentes departamentos para la optimización de procesos.</li>
+      </ul>
+    </section>
+
+    <!-- Educación -->
+    <section>
+      <h2 class="h4 section-title" id="eduTitle">Formación Académica</h2>
+      <p><strong>Técnico Programador</strong><br>
+      Escuela de Educación Secundaria Técnica Nº3 'Eva Perón' – Maquinista Savio, Buenos Aires<br>
+      Graduado: diciembre 2016</p>
+      <ul id="eduList">
+        <li>Especialización en programación con C# y ASP.NET.</li>
+        <li>Desarrollo web con HTML, CSS3, JavaScript y MySQL.</li>
+      </ul>
+    </section>
+
+    <!-- Habilidades Técnicas -->
+    <section class="mt-5">
+      <h2 class="h4 section-title" id="skillsTitle">Habilidades Técnicas</h2>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="skillsGrid">
+        <div class="col">
+          <div class="card shadow-sm h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-code fa-2x text-primary mb-2"></i>
+              <h5 class="card-title" id="skill1">ASP.NET / MVC / API Core</h5>
+              <p class="card-text" id="skill1desc">Desarrollo de aplicaciones escalables y seguras con C# y .NET.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm h-100">
+            <div class="card-body text-center">
+              <i class="fab fa-html5 fa-2x text-danger mb-2"></i>
+              <h5 class="card-title" id="skill2">HTML5 / CSS3 / JavaScript</h5>
+              <p class="card-text" id="skill2desc">Diseño web moderno, responsivo y optimizado para rendimiento.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-database fa-2x text-success mb-2"></i>
+              <h5 class="card-title" id="skill3">MySQL / SQL</h5>
+              <p class="card-text" id="skill3desc">Gestión, migración y normalización de datos en sistemas internos.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm h-100">
+            <div class="card-body text-center">
+              <i class="fab fa-github fa-3x mb-2" style="color: #181717;"></i>
+              <h5 class="card-title" id="skill4">GitHub</h5>
+              <p class="card-text" id="skill4desc">Desarrollo y mantenimiento de proyectos personales y profesionales en GitHub.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Habilidades Blandas -->
+    <section class="mt-5">
+      <h2 class="h4 section-title" id="softSkillsTitle">Habilidades Blandas</h2>
+      <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-3" id="softSkillsGrid">
+        <div class="col text-center"><span class="badge rounded-pill bg-secondary p-3 w-100" id="soft1">Trabajo en equipo</span></div>
+        <div class="col text-center"><span class="badge rounded-pill bg-secondary p-3 w-100" id="soft2">Resolución de problemas</span></div>
+        <div class="col text-center"><span class="badge rounded-pill bg-secondary p-3 w-100" id="soft3">Gestión del tiempo</span></div>
+      </div>
+    </section>
+
+    <!-- Idiomas -->
+    <section class="mt-5">
+      <h2 class="h4 section-title" id="languagesTitle">Idiomas</h2>
+      <ul id="languagesList">
+        <li id="lang1">Español: Nativo</li>
+        <li id="lang2">Inglés: Técnico</li>
+      </ul>
+    </section>
+  </div>
+
+  <!-- JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

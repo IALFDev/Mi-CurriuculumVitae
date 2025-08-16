@@ -1,0 +1,49 @@
+/* General */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #212529;
+    line-height: 1.5;
+}
+a { text-decoration: none; color: inherit; }
+
+.section-title { border-bottom: 2px solid #ccc; padding-bottom: 5px; margin-bottom: 20px; }
+
+ul { padding-left: 1.2em; }
+
+.contact-icon {
+    font-size: 1.2rem; /* Tamaño de los iconos */
+    vertical-align: middle;
+}
+
+.contact-link {
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+.phone-icon { color: #0d6efd; }      /* Azul bootstrap */
+.email-icon { color: #dc3545; }      /* Rojo */
+.globe-icon { color: #04b3f8; }      /* Celeste */
+.github-icon { color: #181717; }     /* Negro GitHub */
+
+/* Dark Mode */
+body.dark-mode { background-color: #121212; color: #e0e0e0; }
+body.dark-mode .card { background-color: #1e1e1e; color: #e0e0e0; }
+body.dark-mode .badge { background-color: #333 !important; color: #fff !important; }
+body.dark-mode a { color: #90caf9; }
+
+/* PDF Optimizado */
+@media print {
+    body { background-color: #fff; color: #000; }
+    .card, .badge { background-color: #fff !important; color: #000 !important; box-shadow: none; }
+    .lang-toggle { display: none; }
+    a { color: #000; text-decoration: none; }
+}
+
+/* Botones */
+.lang-toggle { position: fixed; top: 20px; right: 20px; z-index: 1000; }
