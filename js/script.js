@@ -27,8 +27,16 @@ if (toggleBtn) {
         if (document.getElementById('profileTitle')) {
             document.getElementById('profileTitle').textContent = isSpanish ? 'Perfil Profesional' : 'Professional Profile';
             document.getElementById('profileText').textContent = isSpanish
-                ? 'Técnico Programador con más de 6 años de experiencia en desarrollo de aplicaciones, diseño web y gestión de bases de datos. Especializado en entornos ASP.NET y C#, con sólidos conocimientos en HTML5, CSS3, JavaScript y MySQL. Experiencia en ASP.NET MVC y ASP.NET API Core para el desarrollo de soluciones escalables y seguras. Experiencia en normalización y migración de datos, desarrollo de sistemas a medida y optimización de procesos internos. Enfocado en la resolución de problemas, trabajo en equipo y mejora continua.'
-                : 'Software Developer with over 6 years of experience in application development, web design, and database management. Specialized in ASP.NET and C#, with strong knowledge of HTML5, CSS3, JavaScript, and MySQL. Experienced in ASP.NET MVC and ASP.NET API Core for building scalable and secure solutions. Skilled in data normalization and migration, custom system development, and internal process optimization. Focused on problem-solving, teamwork, and continuous improvement.';
+                ? `Hola, soy Ignacio Andrés Alfonso, recibido de técnico programador con más de 6 años de experiencia en desarrollo de aplicaciones, diseño web y gestión de bases de datos.
+                Especializado en entornos ASP.NET y C#, con sólidos conocimientos en HTML5, CSS3, JavaScript y MySQL.
+                Experiencia en ASP.NET MVC y ASP.NET API Core para el desarrollo de soluciones escalables y seguras.
+                Experiencia en normalización y migración de datos, desarrollo de sistemas a medida y optimización de procesos internos.
+                Enfocado en la resolución de problemas, trabajo en equipo y mejora continua.`
+                : `Hi, I am Ignacio Andrés Alfonso, a qualified programming technician with over 6 years of experience in application development, web design, and database management. 
+                Specialized in ASP.NET and C#, with strong knowledge of HTML5, CSS3, JavaScript, and MySQL. 
+                Experienced in ASP.NET MVC and ASP.NET API Core for building scalable and secure solutions. 
+                Skilled in data normalization and migration, custom system development, and internal process optimization. 
+                Focused on problem-solving, teamwork, and continuous improvement.`;
         }
 
         if (document.getElementById('expTitle')) {
