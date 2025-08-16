@@ -133,12 +133,28 @@ if (themeBtn) {
 const downloadBtn = document.getElementById('downloadPDF');
 if (downloadBtn) {
     downloadBtn.addEventListener('click', () => {
-        html2pdf().set({
-            margin: 0.4,
+        const element = document.getElementById('cv-content');
+
+        const opt = {
+            margin: 0.2,
             filename: 'CV_Ignacio_Alfonso.pdf',
             image: { type: 'jpeg', quality: 1 },
-            html2canvas: { scale: 3, logging: false, dpi: 300 },
-            jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
-        }).from(document.getElementById('cv-content')).save();
+            html2canvas: { 
+                scale: 3,
+                logging: false,  
+                dpi: 300,        
+                scrollY: 0
+            },
+            jsPDF: { 
+                unit: 'in', 
+                format: 'letter', 
+                orientation: 'portrait' 
+            },
+            pagebreak: { 
+                mode: ['css', 'legacy']
+            }
+        };
+
+        html2pdf().set(opt).from(element).save();
     });
 }
