@@ -49,3 +49,34 @@ body.dark-mode .github-icon { color: #ffffff !important; }
 
 /* Botones */
 .lang-toggle { position: fixed; top: 20px; right: 20px; z-index: 1000; }
+
+/*Badges perosnalizadas*/
+
+.badge-html5 {
+    background-color: #E34F26 !important;
+}
+
+.badge-js{
+    background-color: #f7df1e !important;
+    color: #000000;
+}
+
+.badge-css3{
+    background-color: #1572B6 !important;
+}
+
+.badge-csharp{
+    background-color: #68217A !important;
+}
+
+.badge-aspnet{
+    background-color: #512BD4 !important;
+}
+
+.badge-poo{
+    background-color: #6C757D !important;
+}
+
+.badge-mysql{
+    background-color: #4479A1 !important;
+}
