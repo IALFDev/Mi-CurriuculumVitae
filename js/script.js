@@ -57,6 +57,8 @@ if (toggleBtn) {
 
         if (document.getElementById('eduTitle')) {
             document.getElementById('eduTitle').textContent = isSpanish ? 'Formación Académica' : 'Education';
+            document.getElementById('eduTitle2').textContent = isSpanish ? 'Técnico Programador' : 'Programming Technician'
+            document.getElementById('eduDate').textContent = isSpanish ? 'Graduado: Diciembre 2016' : 'Graduated : December 2016'
             document.getElementById('eduList').innerHTML = isSpanish
                 ? `<li>Especialización en programación con C# y ASP.NET.</li>
                 <li>Desarrollo web con HTML, CSS3, JavaScript y MySQL.</li>`
