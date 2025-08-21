@@ -20,8 +20,8 @@ if (toggleBtn) {
 
         if (document.getElementById('availability')) {
             document.getElementById('availability').textContent = isSpanish
-                ? 'Disponibilidad: Inmediata'
-                : 'Availability: Immediate';
+                ? 'Disponibilidad: Inmediata.'
+                : 'Availability: Immediate.';
         }
 
         if (document.getElementById('profileTitle')) {
@@ -114,6 +114,14 @@ if (toggleBtn) {
                 ? "Centro de Entrenadores Deportivos de Alto Rendimiento (CEDAR). Esta plataforma permite a los usuarios adquirir conocimientos y habilidades relacionadas con el fitness y la salud desde cualquier dispositivo conectado a la web."
                 : "High-Performance Sports Coaching Center (CEDAR). This platform enables users to acquire knowledge and skills related to fitness and health from any internet-connected device.";
             document.getElementById('proj2btnWeb').innerHTML = isSpanish ? '<i class="fa-solid fa-globe"></i> Visitar sitio' : '<i class="fa-solid fa-globe"></i> Visit site';
+        }
+
+        if (document.getElementById('proj3title')) {
+            document.getElementById('proj3title').textContent = isSpanish ? "Más Organicos" : "Más Organicos";
+            document.getElementById('proj3desc').textContent = isSpanish
+                ? "Más Orgánicos es una tienda en línea que permite a los usuarios realizar pedidos de productos orgánicos de forma sencilla y rápida. La plataforma cuenta con registro de usuarios, inicio de sesión con Google, carrito de compras y gestión de pedidos personalizada para cada cliente."
+                : "Más Orgánicos is an online store that allows users to order organic products quickly and easily. The platform includes user registration, Google sign-in, a shopping cart, and personalized order management for each customer.";
+            document.getElementById('proj3btnWeb').innerHTML = isSpanish ? '<i class="fa-solid fa-globe"></i> Visitar sitio' : '<i class="fa-solid fa-globe"></i> Visit site';
         }
     });
 }

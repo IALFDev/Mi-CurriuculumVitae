@@ -38,6 +38,13 @@ body.dark-mode .card { background-color: #1e1e1e; color: #e0e0e0; }
 body.dark-mode .badge { background-color: #333 !important; color: #fff !important; }
 body.dark-mode a { color: #90caf9; }
 body.dark-mode .github-icon { color: #ffffff !important; }
+body.dark-mode .badge-html5 { background-color: #E34F26 !important; }
+body.dark-mode .badge-js { background-color: #f7df1e !important; color: #000000; }
+body.dark-mode .badge-css3{ background-color: #1572B6 !important; }
+body.dark-mode .badge-csharp { background-color: #68217A !important; }
+body.dark-mode .badge-aspnet { background-color: #512BD4 !important; }
+body.dark-mode .badge-poo { background-color: #6C757D !important; }
+body.dark-mode .badge-mysql { background-color: #4479A1 !important; }
 
 /* PDF Optimizado */
 @media print {
@@ -63,6 +70,14 @@ body.dark-mode .github-icon { color: #ffffff !important; }
 
 .badge-css3{
     background-color: #1572B6 !important;
+}
+
+.badge-bootstrap{
+    background-color: #5468ff;
+}
+
+.badge-mdb {
+    background: linear-gradient(90deg, #2196F3, #42A5F5, #5E35B1);
 }
 
 .badge-csharp{
