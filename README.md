@@ -12,7 +12,7 @@ Este repositorio contiene la versión web de mi currículum vitae, desarrollado 
 - **Email:** [ignacioalf2018@gmail.com](mailto:ignacioalf2018@gmail.com)
 - **Portafolio:** [Portafolio](https://ialfdev.github.io/Mi-CurriuculumVitae/projects/index.html)
 
-Soy Técnico Programador con más de 6 años de experiencia en desarrollo de aplicaciones, diseño web y gestión de bases de datos. Especializado en entornos **ASP.NET MVC, ASP.NET API Core y C#**, con sólidos conocimientos en **HTML5, CSS3 y JavaScript.**.
+Soy Técnico Programador con más de 6 años de experiencia en desarrollo de aplicaciones, diseño web y gestión de bases de datos. Especializado en entornos **ASP.NET MVC, ASP.NET API Core y C#**, con sólidos conocimientos en **HTML5, CSS3, JavaScript y MySQL**.
 
 ---
 
