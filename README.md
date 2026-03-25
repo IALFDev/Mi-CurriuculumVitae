@@ -8,7 +8,7 @@ Este repositorio contiene la versión web de mi currículum vitae, desarrollado 
 
 - **Nombre:** Ignacio Andrés Alfonso
 - **Ubicación:** Pilar, Buenos Aires, Argentina
-- **Teléfono:** [+54 9 11 6959-9052](tel:+5491169599052)
+- **Teléfono:** [+54 9 11 3069-2706](tel:+5491130692706)
 - **Email:** [ignacioalf2018@gmail.com](mailto:ignacioalf2018@gmail.com)
 - **Portafolio:** [Portafolio](https://ialfdev.github.io/Mi-CurriuculumVitae/projects/index.html)
 
